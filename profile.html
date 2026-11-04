@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f6f8f3"><title>Finora — Your profile</title><link rel="stylesheet" href="style.css"><script src="script.js" defer></script></head>
+<body class="auth-page"><main class="auth-shell">
+  <section class="auth-story"><a class="brand" href="index.html"><span class="brand-mark">f</span> finora</a><div class="story-copy"><p class="eyebrow">YOUR JOURNEY, YOUR WAY</p><h1>Make a plan<br><em>that fits you.</em></h1><p>Tell us a little about your studies and income. You can change these details any time.</p><div class="story-note"><span class="note-icon">↗</span><span><b>Small steps add up.</b><small>Finora helps you see the next step clearly.</small></span></div></div><div class="story-orbit orbit-one"></div><div class="story-orbit orbit-two"></div><small class="story-foot">A personal finance learning prototype</small></section>
+  <section class="auth-form-wrap"><form class="form-card" id="profile-form" novalidate>
+    <div class="step-label"><span class="step-dot done"></span><span class="step-dot active"></span><span>STEP 2 OF 2</span></div><h2>Your study & income</h2><p class="muted">This gives your planner a useful starting point.</p>
+    <label for="study">What are you studying?</label><input id="study" name="study" placeholder="e.g. B.Com, Computer Science" required>
+    <label for="income-source">How do you earn?</label><select id="income-source" name="incomeSource" required><option value="">Select your income source</option><option>Tutoring</option><option>Internship</option><option>Sales / part-time work</option><option>Freelance</option><option>Family support</option><option>Other</option></select>
+    <label for="monthly-income">Approx. monthly income <span class="optional">(₹, optional)</span></label><input id="monthly-income" name="monthlyIncome" type="number" min="0" step="500" placeholder="e.g. 12000">
+    <p class="form-error" id="profile-error" role="alert" aria-live="polite"></p>
+    <button class="button button-primary button-wide" type="submit">Create my dashboard <span>→</span></button><a class="back-link" href="index.html">← Back to your details</a>
+  </form><p class="auth-bottom">Just looking? <a href="dashboard.html">Skip to the demo dashboard</a></p></section>
+</main></body></html>
